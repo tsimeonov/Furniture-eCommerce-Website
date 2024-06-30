@@ -281,3 +281,7 @@ header .input-wrapper {
 .navbar {
   margin-block-end: 60px;
 }
+
+.navbar-items:not(:last-child) {
+  margin-block-end: 15px;
+}
