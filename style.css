@@ -228,7 +228,7 @@ header .input-wrapper {
 .sidebar {
   position: fixed;
   top: 0;
-  right: 0;
+  right: -420px;
   max-width: 420px;
   width: 100%;
   height: 100%;
@@ -239,4 +239,10 @@ header .input-wrapper {
   z-index: 5;
   visibility: hidden;
   transition: 0.25s var(--cubic-in);
+}
+
+.sidebar.active {
+  transform: translateX(-420px);
+  visibility: visible;
+  transition: 0.5s var(--cubic-out);
 }
