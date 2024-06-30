@@ -268,7 +268,7 @@ header .input-wrapper {
   margin-block-end: 15px;
 }
 
-.sidebar-link {
+.sidebar-list-link {
   color: var(--spanish-gray);
   margin-block-start: 6px;
   transition: var(--transition-1);
