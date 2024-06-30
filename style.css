@@ -246,3 +246,7 @@ header .input-wrapper {
   visibility: visible;
   transition: 0.5s var(--cubic-out);
 }
+
+.nav-close-btn {
+  font-size: 30px;
+}
