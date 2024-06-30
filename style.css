@@ -145,3 +145,19 @@ body.active {
 ::-webkit-scrollbar-thumb:hover {
   background-color: hsl(0, 0%, 78%);
 }
+
+/* HEADER */
+
+header .input-wrapper {
+  display: none;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--white);
+  padding-block: 15px;
+  z-index: 4;
+}
