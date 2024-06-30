@@ -148,6 +148,10 @@ body.active {
 
 /* REUSED STYLES */
 
+.container {
+  padding-inline: 15px;
+}
+
 /* HEADER */
 
 header .input-wrapper {
