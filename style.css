@@ -186,3 +186,8 @@ header .input-wrapper {
   align-items: center;
   gap: 20px;
 }
+
+.logo {
+  font-size: 3.3rem;
+  font-weight: var(--fw-700);
+}
