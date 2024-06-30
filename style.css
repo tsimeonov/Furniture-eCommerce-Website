@@ -146,6 +146,8 @@ body.active {
   background-color: hsl(0, 0%, 78%);
 }
 
+/* REUSED STYLES */
+
 /* HEADER */
 
 header .input-wrapper {
@@ -176,4 +178,11 @@ header .input-wrapper {
   100% {
     transform: translateY(0);
   }
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
 }
