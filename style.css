@@ -250,3 +250,9 @@ header .input-wrapper {
 .nav-close-btn {
   font-size: 30px;
 }
+
+.sidebar .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-block: 40px 75px;
+}
