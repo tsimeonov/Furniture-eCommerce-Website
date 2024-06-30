@@ -263,3 +263,7 @@ header .input-wrapper {
   color: var(--smokey-black);
   font-weight: var(--fw-500);
 }
+
+.sidebar-list-title {
+  margin-block-end: 15px;
+}
