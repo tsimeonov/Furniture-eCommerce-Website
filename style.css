@@ -273,3 +273,7 @@ header .input-wrapper {
   margin-block-start: 6px;
   transition: var(--transition-1);
 }
+
+.sidebar-list-link:is(:hover, :focus) {
+  color: var(--tan-crayola);
+}
