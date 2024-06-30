@@ -161,3 +161,10 @@ header .input-wrapper {
   padding-block: 15px;
   z-index: 4;
 }
+
+.header .active {
+  position: fixed;
+  transform: translateY(-100%);
+  box-shadow: var(--shadow);
+  animation: slideIn 0.5s ease forwards;
+}
