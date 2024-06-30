@@ -256,3 +256,10 @@ header .input-wrapper {
   grid-template-columns: 1fr 1fr;
   margin-block: 40px 75px;
 }
+
+.sidebar-list-title,
+.contact-list-title,
+.social-list-title {
+  color: var(--smokey-black);
+  font-weight: var(--fw-500);
+}
