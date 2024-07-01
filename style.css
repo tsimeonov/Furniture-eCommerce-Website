@@ -298,3 +298,7 @@ header .input-wrapper {
 .sidebar :is(address, .contact-item) {
   color: var(--granite-gray);
 }
+
+.sidebar .address {
+  margin-block-start: 20px;
+}
