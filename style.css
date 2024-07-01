@@ -166,6 +166,10 @@ body.active {
   transition: var(--transition-1);
 }
 
+.social-links:is(:hover, :focus) {
+  color: var(--tan-crayola);
+}
+
 /* HEADER */
 
 header .input-wrapper {
