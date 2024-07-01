@@ -157,6 +157,11 @@ body.active {
   align-items: center;
 }
 
+.social-list {
+  display: flex;
+  gap: 30px;
+}
+
 /* HEADER */
 
 header .input-wrapper {
