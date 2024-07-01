@@ -325,3 +325,12 @@ header .input-wrapper {
   justify-content: space-between;
   margin-block-start: 50px;
 }
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background-color: var(--black_70);
+  z-index: 4;
+  pointer-events: none;
+  transform: var(--transition-1);
+}
