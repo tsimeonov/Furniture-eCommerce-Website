@@ -302,3 +302,8 @@ header .input-wrapper {
 .sidebar .address {
   margin-block-start: 20px;
 }
+
+.sidebar .social-wrapper {
+  justify-content: space-between;
+  margin-block-start: 50px;
+}
