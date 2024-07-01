@@ -152,6 +152,11 @@ body.active {
   padding-inline: 15px;
 }
 
+.social-wrapper {
+  display: flex;
+  align-items: center;
+}
+
 /* HEADER */
 
 header .input-wrapper {
