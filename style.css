@@ -294,3 +294,7 @@ header .input-wrapper {
 .navbar-link:is(:hover, :focus) {
   color: var(--granite-gray);
 }
+
+.sidebar :is(address, .contact-item) {
+  color: var(--granite-gray);
+}
