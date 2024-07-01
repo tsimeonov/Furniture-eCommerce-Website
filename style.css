@@ -285,3 +285,8 @@ header .input-wrapper {
 .navbar-items:not(:last-child) {
   margin-block-end: 15px;
 }
+
+.navbar-link {
+  font-weight: var(--fw-500);
+  transition: var(--transition-1);
+}
