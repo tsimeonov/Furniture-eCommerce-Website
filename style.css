@@ -162,6 +162,10 @@ body.active {
   gap: 30px;
 }
 
+.social-links {
+  transition: var(--transition-1);
+}
+
 /* HEADER */
 
 header .input-wrapper {
