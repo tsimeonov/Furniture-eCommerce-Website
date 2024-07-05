@@ -24,3 +24,5 @@ const toggleNavbar = function () {
   overlay.classList.toggle("active");
   document.body.classList.toggle("active");
 };
+
+addEvenOnElement(navTogglers, "click", toggleNavbar);
