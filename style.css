@@ -333,7 +333,7 @@ header .input-wrapper {
   z-index: 4;
   opacity: 0;
   pointer-events: none;
-  transform: var(--transition-1);
+  transition: var(--transition-1);
 }
 
 .overlay.active {

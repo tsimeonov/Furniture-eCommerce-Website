@@ -26,3 +26,11 @@ const toggleNavbar = function () {
 };
 
 addEvenOnElement(navTogglers, "click", toggleNavbar);
+
+const closeNavbar = function () {
+  navbar.classList.remove("active");
+  overlay.classList.remove("active");
+  document.body.classList.remove("active");
+};
+
+addEvenOnElement(navbarLinks, "click", closeNavbar);
