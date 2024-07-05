@@ -11,3 +11,10 @@ const addEvenOnElement = function (elem, type, callback) {
     elem.addEventListener(type, callback);
   }
 };
+
+// Navbar Toggle
+
+const navbar = document.querySelector("[data-navbar]");
+const navbarLinks = document.querySelectorAll("[data-nav-link]");
+const navTogglers = document.querySelectorAll("[data-nav-toggler]");
+const overlay = document.querySelector("[data-overlay]");
