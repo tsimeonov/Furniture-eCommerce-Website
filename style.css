@@ -170,6 +170,10 @@ body.active {
   color: var(--tan-crayola);
 }
 
+section {
+  padding-block: var(--section-padding);
+}
+
 /* HEADER */
 
 header .input-wrapper {
