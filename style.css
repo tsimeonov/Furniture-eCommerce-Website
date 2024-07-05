@@ -334,3 +334,8 @@ header .input-wrapper {
   pointer-events: none;
   transform: var(--transition-1);
 }
+
+.overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
