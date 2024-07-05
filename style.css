@@ -331,6 +331,7 @@ header .input-wrapper {
   inset: 0;
   background-color: var(--black_70);
   z-index: 4;
+  opacity: 0;
   pointer-events: none;
   transform: var(--transition-1);
 }
