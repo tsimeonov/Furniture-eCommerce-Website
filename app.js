@@ -34,3 +34,18 @@ const closeNavbar = function () {
 };
 
 addEvenOnElement(navbarLinks, "click", closeNavbar);
+
+// Header active when window scroll down to 100px
+
+const header = document.querySelector("[data-header]");
+
+const showElementOnScroll = function () {
+  if (window.scrollY > 100) {
+    header.classList.add("active");
+    console.log(window.scrollY);
+  } else {
+    header.classList.remove("active");
+  }
+};
+
+addEvenOnElement(window, "scroll", showElementOnScroll);

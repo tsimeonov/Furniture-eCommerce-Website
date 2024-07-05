@@ -186,7 +186,7 @@ header .input-wrapper {
   z-index: 4;
 }
 
-.header .active {
+.header.active {
   position: fixed;
   transform: translateY(-100%);
   box-shadow: var(--shadow);
