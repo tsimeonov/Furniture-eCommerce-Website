@@ -399,3 +399,9 @@ header .input-wrapper {
 .hero-card .card-title:is(:hover, :focus) {
   color: var(--tan-crayola);
 }
+
+/* ABOUT */
+
+.about {
+  text-align: center;
+}
