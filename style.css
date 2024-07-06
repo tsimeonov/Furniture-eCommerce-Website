@@ -356,3 +356,9 @@ header .input-wrapper {
   opacity: 1;
   pointer-events: all;
 }
+
+/* HERO */
+
+.hero {
+  padding-block-start: calc(var(--section-padding)+60px);
+}
