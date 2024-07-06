@@ -371,3 +371,7 @@ header .input-wrapper {
 .hero-card {
   position: relative;
 }
+
+.hero-card .img-cover {
+  transition: var(--transition-1);
+}
