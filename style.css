@@ -415,3 +415,7 @@ header .input-wrapper {
 .about .section-text {
   margin-block: 12px 45px;
 }
+
+.about-card {
+  position: relative;
+}
