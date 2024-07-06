@@ -428,7 +428,7 @@ header .input-wrapper {
   transform: scale(1.1);
 }
 
-.about .play-btn {
+.about-card .play-btn {
   position: absolute;
   inset: 0;
   display: grid;
