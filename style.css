@@ -419,3 +419,7 @@ header .input-wrapper {
 .about-card {
   position: relative;
 }
+
+.about-card .img-cover {
+  transition: var(--transition-1);
+}
