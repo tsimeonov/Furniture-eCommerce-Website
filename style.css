@@ -423,3 +423,7 @@ header .input-wrapper {
 .about-card .img-cover {
   transition: var(--transition-1);
 }
+
+.about-card:is(:hover, :focus) .img-cover {
+  transform: scale(1.1);
+}
