@@ -395,3 +395,7 @@ header .input-wrapper {
   font-size: var(--fs-3);
   transition: var(--transition-1);
 }
+
+.hero-card .card-title:is(:hover, :focus) {
+  color: var(--tan-crayola);
+}
