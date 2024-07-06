@@ -390,3 +390,8 @@ header .input-wrapper {
 .hero-card :is(.card-title, .card-text) {
   font-weight: var(--fw-500);
 }
+
+.hero-card .card-title {
+  font-size: var(--fs-3);
+  transition: var(--transition-1);
+}
