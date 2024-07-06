@@ -437,3 +437,7 @@ header .input-wrapper {
   font-size: 80px;
   transition: var(--transition-2);
 }
+
+.about-card:is(:hover, :focus) .play-btn {
+  background-color: var(--black_50);
+}
