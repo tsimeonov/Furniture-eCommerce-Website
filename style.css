@@ -411,3 +411,7 @@ header .input-wrapper {
   font-size: var(--fs-1);
   font-weight: var(--fw-500);
 }
+
+.about .section-text {
+  margin-block: 12px 45px;
+}
