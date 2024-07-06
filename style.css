@@ -379,3 +379,10 @@ header .input-wrapper {
 .hero-card:is(:hover, :focus) .img-cover {
   transform: scale(1.1);
 }
+
+.hero-card .card-content {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  right: 30px;
+}
