@@ -367,3 +367,7 @@ header .input-wrapper {
   display: grid;
   gap: 15px;
 }
+
+.hero-card {
+  position: relative;
+}
