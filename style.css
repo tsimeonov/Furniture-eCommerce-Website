@@ -566,3 +566,7 @@ header .input-wrapper {
   margin-block-end: 10px;
   outline: 1px silid yellow;
 }
+
+.product-card .badge.orange {
+  background-color: var(--red-orange-color-wheel);
+}
