@@ -616,3 +616,11 @@ header .input-wrapper {
 .product-list > * {
   display: none;
 }
+
+.product-list[data-filter="all"] > *,
+.product-list[data-filter="accessory"] > *,
+.product-list[data-filter="decoration"] > *,
+.product-list[data-filter="furniture"] > * {
+  display: block;
+  animation: fadeUp 1s wase forwards;
+}
