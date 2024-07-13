@@ -483,13 +483,11 @@ header .input-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  outline: 2px solid green;
 }
 
 .filter-btn-item {
   position: relative;
   display: flex;
-  outline: 1px solid red;
 }
 
 .filter-btn-item:not(:last-child)::after {
@@ -529,7 +527,6 @@ header .input-wrapper {
   gap: 15px;
   /* opacity: 0; */
   transition: var(--transition-2);
-  outline: 1px solid blue;
 }
 
 .product-card .card-banner:is(:hover, :focus-within) .card-action-list {
@@ -564,7 +561,6 @@ header .input-wrapper {
   border-radius: 50%;
   line-height: 45px;
   margin-block-end: 10px;
-  outline: 1px silid yellow;
 }
 
 .product-card .badge.orange {
@@ -594,7 +590,6 @@ header .input-wrapper {
   font-weight: var(--fw-500);
   margin-block: 18px 5px;
   transition: var(--transition-1);
-  outline: 1px solid darkgray;
 }
 
 .product-card .card-title:is(:hover, :focus) {
