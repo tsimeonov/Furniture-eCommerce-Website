@@ -574,3 +574,13 @@ header .input-wrapper {
 .product-card .badge.cyan {
   background-color: var(--middle-blue-green);
 }
+
+.product-card .card-badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: var(--black);
+  color: var(--white);
+  font-weight: var(--fw-500);
+  padding-inline: 15px;
+}
