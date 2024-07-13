@@ -612,3 +612,7 @@ header .input-wrapper {
 .product-card .card-price .del {
   color: var(--spanish-gray);
 }
+
+.product-list > * {
+  display: none;
+}
