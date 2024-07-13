@@ -193,6 +193,10 @@ h3 {
   line-height: 1.4;
 }
 
+h2 {
+  font-size: var(--fs-2);
+}
+
 /* HEADER */
 
 header .input-wrapper {
