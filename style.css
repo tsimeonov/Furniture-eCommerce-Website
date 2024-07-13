@@ -544,3 +544,7 @@ header .input-wrapper {
   border-radius: 50%;
   transition: var(--transition-1);
 }
+
+.product-card .card-action-btn:is(:hover, :focus) {
+  color: var(--tan-crayola);
+}
