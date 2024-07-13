@@ -500,3 +500,7 @@ header .input-wrapper {
 .filter-btn {
   transition: var(--transition-1);
 }
+
+.filter-btn.active {
+  color: var(--tan-crayola);
+}
