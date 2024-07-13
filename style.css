@@ -570,3 +570,7 @@ header .input-wrapper {
 .product-card .badge.orange {
   background-color: var(--red-orange-color-wheel);
 }
+
+.product-card .badge.cyan {
+  background-color: var(--middle-blue-green);
+}
