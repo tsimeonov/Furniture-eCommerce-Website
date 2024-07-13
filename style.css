@@ -491,3 +491,8 @@ header .input-wrapper {
   display: flex;
   outline: 1px solid red;
 }
+
+.filter-btn-item:not(:last-child)::after {
+  content: "|";
+  margin-inline: 15px;
+}
