@@ -483,4 +483,11 @@ header .input-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  outline: 2px solid green;
+}
+
+.filter-btn-item {
+  position: relative;
+  display: flex;
+  outline: 1px solid red;
 }
