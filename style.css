@@ -496,3 +496,7 @@ header .input-wrapper {
   content: "|";
   margin-inline: 15px;
 }
+
+.filter-btn {
+  transition: var(--transition-1);
+}
