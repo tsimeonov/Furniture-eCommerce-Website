@@ -515,3 +515,7 @@ header .input-wrapper {
   opacity: 0;
   transition: var(--transition-1);
 }
+
+.product-card .card-banner:is(:hover, :focus-within)::before {
+  opacity: 1;
+}
