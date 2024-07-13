@@ -519,3 +519,15 @@ header .input-wrapper {
 .product-card .card-banner:is(:hover, :focus-within)::before {
   opacity: 1;
 }
+
+.product-card .card-action-list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  display: flex;
+  gap: 15px;
+  /* opacity: 0; */
+  transition: var(--transition-2);
+  outline: 1px solid blue;
+}
