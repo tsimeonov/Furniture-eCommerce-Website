@@ -504,3 +504,7 @@ header .input-wrapper {
 .filter-btn.active {
   color: var(--tan-crayola);
 }
+
+.product-card {
+  text-align: center;
+}
