@@ -536,3 +536,11 @@ header .input-wrapper {
   transform: translate(-50%, -50%);
   opacity: 1;
 }
+
+.product-card .card-action-btn {
+  background-color: var(--white);
+  font-size: 22px;
+  padding: 12px;
+  border-radius: 50%;
+  transition: var(--transition-1);
+}
