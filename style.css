@@ -197,6 +197,10 @@ h2 {
   font-size: var(--fs-2);
 }
 
+h3 {
+  font-size: var(--fs-3);
+}
+
 /* HEADER */
 
 header .input-wrapper {
