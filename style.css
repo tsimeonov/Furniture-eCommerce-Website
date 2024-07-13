@@ -608,3 +608,7 @@ header .input-wrapper {
   color: var(--granite-gray);
   font-size: var(--fs-4);
 }
+
+.product-card .card-price .del {
+  color: var(--spanish-gray);
+}
