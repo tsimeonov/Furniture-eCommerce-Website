@@ -596,3 +596,7 @@ header .input-wrapper {
   transition: var(--transition-1);
   outline: 1px solid darkgray;
 }
+
+.product-card .card-title:is(:hover, :focus) {
+  color: var(--tan-crayola);
+}
