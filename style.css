@@ -211,6 +211,11 @@ h3 {
   z-index: 1;
 }
 
+.has-before::before {
+  content: "";
+  position: absolute;
+}
+
 /* HEADER */
 
 header .input-wrapper {
