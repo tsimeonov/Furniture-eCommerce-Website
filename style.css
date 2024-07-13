@@ -186,6 +186,13 @@ section {
   object-fit: contain;
 }
 
+h2,
+h3 {
+  color: var(--smokey-black);
+  font-weight: var(--fw-500);
+  line-height: 1.4;
+}
+
 /* HEADER */
 
 header .input-wrapper {
