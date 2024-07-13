@@ -600,3 +600,11 @@ header .input-wrapper {
 .product-card .card-title:is(:hover, :focus) {
   color: var(--tan-crayola);
 }
+
+.product-card .card-price {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  color: var(--granite-gray);
+  font-size: var(--fs-4);
+}
