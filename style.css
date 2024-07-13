@@ -554,3 +554,15 @@ header .input-wrapper {
   top: 15px;
   left: 15px;
 }
+
+.product-card .badge {
+  color: var(--white);
+  font-size: var(-fs-5);
+  font-weight: var(--fw-500);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  line-height: 45px;
+  margin-block-end: 10px;
+  outline: 1px silid yellow;
+}
