@@ -508,3 +508,10 @@ header .input-wrapper {
 .product-card {
   text-align: center;
 }
+
+.product-card .card-banner::before {
+  inset: 0;
+  background-color: var(--black_10);
+  opacity: 0;
+  transition: var(--transition-1);
+}
