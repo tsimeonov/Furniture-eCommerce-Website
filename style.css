@@ -531,3 +531,8 @@ header .input-wrapper {
   transition: var(--transition-2);
   outline: 1px solid blue;
 }
+
+.product-card .card-banner:is(:hover, :focus-within) .card-action-list {
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
