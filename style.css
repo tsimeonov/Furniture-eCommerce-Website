@@ -201,6 +201,11 @@ h3 {
   font-size: var(--fs-3);
 }
 
+.grid-list {
+  display: grid;
+  gap: 35px;
+}
+
 /* HEADER */
 
 header .input-wrapper {
