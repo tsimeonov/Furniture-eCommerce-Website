@@ -618,9 +618,9 @@ header .input-wrapper {
 }
 
 .product-list[data-filter="all"] > *,
-.product-list[data-filter="accessory"] > *,
-.product-list[data-filter="decoration"] > *,
-.product-list[data-filter="furniture"] > * {
+.product-list[data-filter="accessory"] > .accessory,
+.product-list[data-filter="decoration"] > .decoration,
+.product-list[data-filter="furniture"] > .furniture {
   display: block;
   animation: fadeUp 1s wase forwards;
 }
