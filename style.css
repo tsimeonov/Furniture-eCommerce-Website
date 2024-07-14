@@ -631,3 +631,13 @@ header .input-wrapper {
     transform: translateY(0);
   }
 }
+
+/* BLOG */
+
+.blog .title-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px 50px;
+  margin-block-end: 50px;
+}
