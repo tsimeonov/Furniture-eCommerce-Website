@@ -746,3 +746,7 @@ a.card-meta-text:is(:hover, :focus) {
   outline-offset: 0;
   transition: var(--transition-1);
 }
+
+.newsletter-card .email-field:focus {
+  outline-color: var(--black_25);
+}
