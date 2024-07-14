@@ -721,3 +721,7 @@ a.card-meta-text:is(:hover, :focus) {
 .newsletter-card {
   padding-inline: 15px;
 }
+
+.newsletter-card .card-content {
+  margin-block-end: 40px;
+}
