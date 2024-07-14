@@ -729,3 +729,7 @@ a.card-meta-text:is(:hover, :focus) {
 .newsletter .section-title {
   margin-block-end: 8px;
 }
+
+.newsletter-card .h2 {
+  --fs-2: 2.6rem;
+}
