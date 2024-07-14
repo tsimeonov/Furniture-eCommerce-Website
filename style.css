@@ -655,3 +655,7 @@ header .input-wrapper {
 .blog .btn-link:is(:hover, :focus) {
   color: var(--tan-crayola);
 }
+
+.blog-card .card-banner {
+  position: relative;
+}
