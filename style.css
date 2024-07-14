@@ -703,3 +703,9 @@ header .input-wrapper {
   margin-inline: 8px;
   color: var(--spanish-gray);
 }
+
+.card-meta-text {
+  display: inline-block;
+  color: var(--black);
+  transition: var(--transition-1);
+}
