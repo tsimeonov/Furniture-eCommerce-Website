@@ -710,3 +710,10 @@ header .input-wrapper {
 a.card-meta-text:is(:hover, :focus) {
   color: var(--tan-crayola);
 }
+
+/* NEWSLETTER */
+
+.newsletter {
+  --section-padding: 20px;
+  background-color: var(--cultured);
+}
