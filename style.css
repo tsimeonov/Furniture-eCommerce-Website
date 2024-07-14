@@ -651,3 +651,7 @@ header .input-wrapper {
   transition: var(--transition-1);
   outline: 1px solid green;
 }
+
+.blog .btn-link:is(:hover, :focus) {
+  color: var(--tan-crayola);
+}
