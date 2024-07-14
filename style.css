@@ -640,7 +640,6 @@ header .input-wrapper {
   justify-content: space-between;
   gap: 10px 50px;
   margin-block-end: 50px;
-  outline: 1px solid red;
 }
 
 .blog .btn-link {
@@ -649,7 +648,6 @@ header .input-wrapper {
   gap: 10px;
   font-weight: var(--fw-500);
   transition: var(--transition-1);
-  outline: 1px solid green;
 }
 
 .blog .btn-link:is(:hover, :focus) {
@@ -689,7 +687,6 @@ header .input-wrapper {
 .blog-card .card-meta-list {
   display: flex;
   align-items: center;
-  outline: 1px solid red;
 }
 
 .card-meta-item {
