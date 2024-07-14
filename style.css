@@ -659,3 +659,16 @@ header .input-wrapper {
 .blog-card .card-banner {
   position: relative;
 }
+
+.blog-card .card-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 15px;
+  transform: translateX(100%);
+  transition: var(--transition-2);
+}
