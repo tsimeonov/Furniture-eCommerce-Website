@@ -691,3 +691,9 @@ header .input-wrapper {
   align-items: center;
   outline: 1px solid red;
 }
+
+.card-meta-item {
+  position: relative;
+  color: var(--granite-gray);
+  font-size: var(--fs-5);
+}
