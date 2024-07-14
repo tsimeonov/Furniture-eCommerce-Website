@@ -681,3 +681,7 @@ header .input-wrapper {
   margin-block: 20px 10px;
   transition: var(--transition-1);
 }
+
+.blog-card .card-title:is(:hover, :focus) {
+  color: var(--tan-crayola);
+}
