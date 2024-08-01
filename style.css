@@ -758,3 +758,11 @@ a.card-meta-text:is(:hover, :focus) {
   bottom: 0;
   padding-inline: 20px;
 }
+
+/* FOOTER */
+
+.footer-top {
+  display: grid;
+  gap: 30px;
+  padding-block-end: 40px;
+}
