@@ -796,3 +796,10 @@ a.card-meta-text:is(:hover, :focus) {
 }
 
 .footer-form {position: relative;}
+
+.footer .email-field {
+  padding-block: 10px;
+  padding-inline-end: 35px;
+  border-block-end: 1px solid var(--black_25);
+  outline: none;
+}
