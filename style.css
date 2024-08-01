@@ -774,3 +774,8 @@ a.card-meta-text:is(:hover, :focus) {
   gap: 10px;
   outline: 1px solif green;
 }
+
+.footer-link {
+  padding-block: 4px;
+  transition: var(--transition-1);
+}
