@@ -787,3 +787,10 @@ a.card-meta-text:is(:hover, :focus) {
 .footer-brand .social-list {
   margin-block-start: 30px;
 }
+
+.footer-list-title {
+  color: var(--smokey-black);
+  font-size: var(--fs-4);
+  font-weight: var(--fw-500);
+  margin-block-end: 15px;
+}
