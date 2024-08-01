@@ -845,5 +845,10 @@ a.card-meta-text:is(:hover, :focus) {
   opacity: 0;
   visibility: hidden;
   transition: var(--transition-1);
+}
 
+.back-top-btn.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-10px);
 }
