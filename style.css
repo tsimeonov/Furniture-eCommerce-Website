@@ -803,3 +803,5 @@ a.card-meta-text:is(:hover, :focus) {
   border-block-end: 1px solid var(--black_25);
   outline: none;
 }
+
+.footer .email-field:focus {border-color: var(--tan-crayola);}
