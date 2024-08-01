@@ -820,3 +820,8 @@ a.card-meta-text:is(:hover, :focus) {
   gap: 20px;
   margin-block-start: 20px;
 }
+
+.copyright {
+  text-align: center;
+  padding-block: 20px;
+}
