@@ -794,3 +794,5 @@ a.card-meta-text:is(:hover, :focus) {
   font-weight: var(--fw-500);
   margin-block-end: 15px;
 }
+
+.footer-form {position: relative;}
