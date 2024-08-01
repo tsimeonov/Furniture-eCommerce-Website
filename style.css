@@ -805,3 +805,12 @@ a.card-meta-text:is(:hover, :focus) {
 }
 
 .footer .email-field:focus {border-color: var(--tan-crayola);}
+
+.footer-form-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 20px;
+  color: var(--granite-gray);
+}
