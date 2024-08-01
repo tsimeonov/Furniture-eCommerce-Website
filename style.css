@@ -832,7 +832,7 @@ a.card-meta-text:is(:hover, :focus) {
 
 /* BACK TO TOP */
 
-.back-to-top {
+.back-top-btn {
   position: fixed;
   bottom: 30px;
   right: 30px;
