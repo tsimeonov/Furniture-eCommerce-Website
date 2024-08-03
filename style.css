@@ -924,3 +924,10 @@ a.card-meta-text:is(:hover, :focus) {
 .footer-top {grid-template-columns: 1fr 1fr;}
 
 }
+
+/* RESPONSIVE FOR LARGER THAN 768px SCREENS */
+
+@media (min-width: 768px) {
+
+
+}
