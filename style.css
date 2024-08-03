@@ -903,4 +903,8 @@ a.card-meta-text:is(:hover, :focus) {
 
 .header-action {gap: 25px}
 
+/* NEWSLETTER */
+
+.newsletter {background: none;}
+
 }
