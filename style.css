@@ -874,4 +874,9 @@ a.card-meta-text:is(:hover, :focus) {
 
 .header .container {gap: 35px;}
 
+.header .input-wrapper {
+  display: block;
+  position: relative;
+}
+
 }
