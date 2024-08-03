@@ -937,4 +937,11 @@ a.card-meta-text:is(:hover, :focus) {
 
   .header .input-wrapper {width: 200px;}
 
+  /* HERO */
+
+  .hero-list {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+
 }
