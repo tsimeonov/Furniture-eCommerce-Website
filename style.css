@@ -891,4 +891,6 @@ a.card-meta-text:is(:hover, :focus) {
   display: none;
 }
 
+.header .input-field:focus {border-block-end-color: var(--tan-crayola);}
+
 }
