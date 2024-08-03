@@ -950,4 +950,13 @@ a.card-meta-text:is(:hover, :focus) {
 
   .about .section-text {margin-block-end: 75px;}
 
+  /* PRODUCT */
+
+  .product .title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block-end: 80px;
+  }
+
 }
