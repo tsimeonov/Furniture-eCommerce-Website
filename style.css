@@ -944,4 +944,6 @@ a.card-meta-text:is(:hover, :focus) {
     gap: 10px;
   }
 
+  .hero-list .colspan-2 {grid-column: span 2;}
+
 }
