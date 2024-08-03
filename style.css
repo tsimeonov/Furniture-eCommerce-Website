@@ -931,4 +931,8 @@ a.card-meta-text:is(:hover, :focus) {
 
   .container {max-width: 768px;}
 
+  /* HEADER */
+
+  .header-action {gap: 35px;}
+
 }
