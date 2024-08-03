@@ -907,4 +907,9 @@ a.card-meta-text:is(:hover, :focus) {
 
 .newsletter {background: none;}
 
+.newsletter-card {
+  background-color: var(--cultured);
+  padding: 20px 30px;
+}
+
 }
