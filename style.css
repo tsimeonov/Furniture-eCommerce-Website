@@ -901,4 +901,6 @@ a.card-meta-text:is(:hover, :focus) {
   font-size: 24px;
 }
 
+.header-action {gap: 25px}
+
 }
