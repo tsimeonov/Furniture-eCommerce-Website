@@ -852,3 +852,13 @@ a.card-meta-text:is(:hover, :focus) {
   visibility: visible;
   transform: translateY(-10px);
 }
+
+/* RESPONSIVE FOR LARGER THAN 575px SCREENS */
+
+/* REUSED STYLES */
+
+.container {
+  max-width: 575px;
+  width: 100%;
+  margin-inline: auto;
+}
