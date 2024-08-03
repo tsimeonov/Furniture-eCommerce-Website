@@ -946,4 +946,8 @@ a.card-meta-text:is(:hover, :focus) {
 
   .hero-list .colspan-2 {grid-column: span 2;}
 
+  /* ABOUT */
+
+  .about .section-text {margin-block-end: 75px;}
+
 }
