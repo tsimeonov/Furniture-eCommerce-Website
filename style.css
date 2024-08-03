@@ -912,4 +912,8 @@ a.card-meta-text:is(:hover, :focus) {
   padding: 20px 30px;
 }
 
+/* FOOTER */
+
+.footer-top {grid-template-columns: 1fr 1fr;}
+
 }
