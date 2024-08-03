@@ -870,4 +870,8 @@ a.card-meta-text:is(:hover, :focus) {
   column-gap: 25px;
 }
 
+/* HEADER */
+
+.header .container {gap: 35px;}
+
 }
