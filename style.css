@@ -870,6 +870,13 @@ a.card-meta-text:is(:hover, :focus) {
   column-gap: 25px;
 }
 
+.grid-list > li:last-child {
+  grid-column:  span 2;
+  max-width: calc(50% - 12.5px);
+  width: 100%;
+  margin-inline: auto;
+}
+
 /* HEADER */
 
 .header .container {gap: 35px;}
