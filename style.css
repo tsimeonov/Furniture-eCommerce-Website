@@ -998,4 +998,6 @@ a.card-meta-text:is(:hover, :focus) {
     align-items:  center;
     gap: 40px;
   }
+
+  .newsletter-card .card-content {margin-block-end: 0;}
 }
