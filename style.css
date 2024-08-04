@@ -159,6 +159,8 @@ body.active {
 
 .social-list {
   display: flex;
+  flex-direction: row;
+  outline: 1px solid green;
   gap: 30px;
 }
 
