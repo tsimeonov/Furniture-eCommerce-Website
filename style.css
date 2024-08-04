@@ -1019,4 +1019,8 @@ a.card-meta-text:is(:hover, :focus) {
 
     --fs-2: 3.6rem
   }
+
+  /* REUSED STYLE */
+
+  .container {max-width: 1200px;}
 }
