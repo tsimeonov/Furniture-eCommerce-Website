@@ -1006,3 +1006,17 @@ a.card-meta-text:is(:hover, :focus) {
     padding-block-end: 60px;
   }
 }
+
+/* RESPONSIVE FOR LARGER THAN 1200px SCREEN */
+
+@media (min-width: 1200px) {
+
+  /* CUSTOM PROPERTY */
+
+  :root {
+
+    /* typography */
+
+    --fs-2: 3.6rem
+  }
+}
