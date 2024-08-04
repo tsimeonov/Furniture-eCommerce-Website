@@ -974,4 +974,6 @@ a.card-meta-text:is(:hover, :focus) {
   .container {max-width: 992px;}
 
   .grid-list > li:last-child {all: unset}
+
+  .grid-list {grid-template-columns: repeat(3, 1fr);}
 }
