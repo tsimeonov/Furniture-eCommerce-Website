@@ -1023,4 +1023,8 @@ a.card-meta-text:is(:hover, :focus) {
   /* REUSED STYLE */
 
   .container {max-width: 1200px;}
+
+  /* PRODUCT */
+
+  .product-list {grid-template-columns: repeat(4,1fr);}
 }
