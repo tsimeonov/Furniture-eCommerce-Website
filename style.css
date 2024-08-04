@@ -963,6 +963,6 @@ a.card-meta-text:is(:hover, :focus) {
 
   /* NEWSLETTER */
 
-
+.newsletter-card {padding: 50px 70px;}
 
 }
