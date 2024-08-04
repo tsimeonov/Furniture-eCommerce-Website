@@ -966,3 +966,10 @@ a.card-meta-text:is(:hover, :focus) {
 .newsletter-card {padding: 50px 70px;}
 
 }
+
+/* RESPONSIVE FOR LARGER THAN 992px SCREEN */
+
+@media (min-width: 992px) {
+
+  body {background-color: aqua;}
+}
