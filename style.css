@@ -987,4 +987,8 @@ a.card-meta-text:is(:hover, :focus) {
     max-width: 85ch;
     margin-inline: auto;
   }
+
+  /* NESWLETTER */
+
+  .newsletter {--section-padding: 50px}
 }
