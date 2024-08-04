@@ -959,4 +959,10 @@ a.card-meta-text:is(:hover, :focus) {
     margin-block-end: 80px;
   }
 
+  .filter-btn-list {margin: 0;}
+
+  /* NEWSLETTER */
+
+
+
 }
