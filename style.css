@@ -972,4 +972,6 @@ a.card-meta-text:is(:hover, :focus) {
 @media (min-width: 992px) {
 
   .container {max-width: 992px;}
+
+  .grid-list > li:last-child {all: unset}
 }
