@@ -976,4 +976,8 @@ a.card-meta-text:is(:hover, :focus) {
   .grid-list > li:last-child {all: unset}
 
   .grid-list {grid-template-columns: repeat(3, 1fr);}
+
+  /* HERO */
+
+  .hero-card .card-title {--fs-3: 2.2rem}
 }
