@@ -971,5 +971,5 @@ a.card-meta-text:is(:hover, :focus) {
 
 @media (min-width: 992px) {
 
-  body {background-color: aqua;}
+  .container {max-width: 992px;}
 }
