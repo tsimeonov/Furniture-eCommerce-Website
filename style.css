@@ -104,3 +104,9 @@ ion-icon {
 address {
 	font-style: normal;
 }
+
+html {
+	font-family: var(--ff-roboto);
+	font-size: 10px;
+	scroll-behavior: smooth;
+}
