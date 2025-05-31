@@ -96,3 +96,11 @@ input {
 button {
 	cursor: pointer;
 }
+
+ion-icon {
+	pointer-events: none;
+}
+
+address {
+	font-style: normal;
+}
