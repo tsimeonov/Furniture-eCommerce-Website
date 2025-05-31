@@ -37,4 +37,7 @@
 	/* spacing */
 
 	--section-padding: 50px;
+
+	/* shadow */
+	--shadow: 0 0 2px hsla(0%, 0%, 0.2);
 }
