@@ -18,4 +18,19 @@
 	--manatee: hsl(218, 11%, 65%);
 	--black: hsl(0, 0%, 0%);
 	--white: hsl(0, 0%, 100%);
+
+	/* typography */
+
+	--ff-roboto: 'Roboto', sans-serif;
+	--ff-mr_de_haviland: 'Mr De Haviland', cursive;
+
+	--fs-1: 6rem;
+	--fs-2: 3rem;
+	--fs-3: 2rem;
+	--fs-4: 1.8rem;
+	--fs-5: 1.4rem;
+	--fs-6: 1.2rem;
+
+	--fw-700: 700;
+	--fw-500: 500;
 }
