@@ -209,3 +209,7 @@ body.active {
 	font-weight: 24px;
 	transition: var(--transition-1);
 }
+
+.header-action-btn:is(:hover, :focus) {
+	color: var(--tan-crayola);
+}
