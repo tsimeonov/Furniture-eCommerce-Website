@@ -203,3 +203,9 @@ body.active {
 	display: flex;
 	gap: 15px;
 }
+
+.header-action-btn {
+	position: relative;
+	font-weight: 24px;
+	transition: var(--transition-1);
+}
