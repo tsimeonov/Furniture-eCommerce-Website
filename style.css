@@ -153,3 +153,19 @@ body.active {
 .header .input-wrapper {
 	display: none;
 }
+
+.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: var(--white);
+	z-index: 4;
+}
+
+.header.active {
+	position: fixed;
+	transform: translateY(-100%);
+	box-shadow: var(--shadow);
+	animation: slideIn 0.5s ease forwards;
+}
