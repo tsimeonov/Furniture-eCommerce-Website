@@ -198,3 +198,8 @@ body.active {
 	font-size: 3.3rem;
 	font-weight: var(--fw-700);
 }
+
+.header-action {
+	display: flex;
+	gap: 15px;
+}
