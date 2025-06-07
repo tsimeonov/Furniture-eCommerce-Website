@@ -284,6 +284,6 @@ body.active {
 	cursor: pointer;
 }
 
-.sidebar-list-title {
-	margin-block-end: 15px;
+.navbar {
+	margin-block-end: 60px;
 }
