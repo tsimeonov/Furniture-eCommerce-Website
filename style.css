@@ -307,5 +307,10 @@ body.active {
 
 .sidebar .address {
 	margin-block-start: 20px;
+}
+
+.sidebar .social-wrapper {
+	justify-content: space-between;
+	margin-block-start: 50px;
 	outline: 1px solid red;
 }
