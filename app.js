@@ -11,3 +11,10 @@ const addEventOnElem = function (elem, type, callback) {
 		elem.addEventListener(type, callback);
 	}
 };
+
+// NAVBAR TOGGLE
+
+const navbar = document.querySelector('[data-navbar]');
+const navbarLinks = document.querySelector('[data-nav-link]');
+const navTogglers = document.querySelector('[data-nav-toggler]');
+const overlay = document.querySelector('[data-overlay]');
