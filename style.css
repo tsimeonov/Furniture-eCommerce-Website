@@ -278,3 +278,7 @@ body.active {
 	margin-block-start: 6px;
 	transition: var(--transition-1);
 }
+
+.sidebarlink:is(:hover, :focus) {
+	color: var(--tan-crayola);
+}
