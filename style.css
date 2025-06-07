@@ -348,3 +348,8 @@ body.active {
 	transform: var(--transition-1);
 	outline: 1px solid red;
 }
+
+.overlay.active {
+	opacity: 1;
+	pointer-events: all;
+}
