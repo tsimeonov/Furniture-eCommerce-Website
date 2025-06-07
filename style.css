@@ -171,6 +171,11 @@ body.active {
 .navbar-link:is(:hover, :focus),
 .sidebar :is(.address, .contact-item) {
 	color: var(--light-gray);
+}
+
+.sidebar .social-wrapper {
+	justify-content: space-between;
+	margin-block-start: 50px;
 	outline: 1px solid red;
 }
 
