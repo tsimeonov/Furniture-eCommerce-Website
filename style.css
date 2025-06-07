@@ -272,3 +272,9 @@ body.active {
 .sidebar-list-title {
 	margin-block-end: 15px;
 }
+
+.sidebar-link {
+	color: var(--spanish-gray);
+	margin-block-start: 6px;
+	transition: var(--transition-1);
+}
