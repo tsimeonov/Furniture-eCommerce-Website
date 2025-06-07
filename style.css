@@ -159,6 +159,12 @@ body.active {
 	align-items: center;
 }
 
+.social-list {
+	display: flex;
+	gap: 30px;
+	outline: 1px solid red;
+}
+
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
@@ -317,5 +323,4 @@ body.active {
 .sidebar .social-wrapper {
 	justify-content: space-between;
 	margin-block-start: 50px;
-	outline: 1px solid red;
 }
