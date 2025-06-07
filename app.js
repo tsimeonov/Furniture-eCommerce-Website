@@ -18,3 +18,9 @@ const navbar = document.querySelector('[data-navbar]');
 const navbarLinks = document.querySelector('[data-nav-link]');
 const navTogglers = document.querySelector('[data-nav-toggler]');
 const overlay = document.querySelector('[data-overlay]');
+
+const toggleNavbar = function () {
+	navbar.classList.toggle('active');
+	overlay.classList.toggle('active');
+	document.body.classList.toggle('active');
+};
