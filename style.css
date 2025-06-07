@@ -299,5 +299,9 @@ body.active {
 
 .navbar-link:is(:hover, :focus) {
 	color: var(--light-gray);
+}
+
+.sidebar :is(.address, .contact-item) {
+	color: var(--light-gray);
 	outline: 1px solid red;
 }
