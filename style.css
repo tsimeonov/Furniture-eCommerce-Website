@@ -147,11 +147,16 @@ body.active {
 }
 
 /*-----------------------------------*\
-  #REUSED
+  #REUSED STYLE
 \*-----------------------------------*/
 
 .container {
 	padding-inline: 15px;
+}
+
+.social-wrapper {
+	display: flex;
+	align-items: center;
 }
 
 /*-----------------------------------*\
