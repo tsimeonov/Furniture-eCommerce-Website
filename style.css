@@ -281,4 +281,9 @@ body.active {
 
 .sidebar-link:is(:hover, :focus) {
 	color: var(--tan-crayola);
+	cursor: pointer;
+}
+
+.sidebar-list-title {
+	margin-block-end: 15px;
 }
