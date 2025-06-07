@@ -279,6 +279,6 @@ body.active {
 	transition: var(--transition-1);
 }
 
-.sidebarlink:is(:hover, :focus) {
+.sidebar-link:is(:hover, :focus) {
 	color: var(--tan-crayola);
 }
