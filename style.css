@@ -287,3 +287,8 @@ body.active {
 .navbar {
 	margin-block-end: 60px;
 }
+
+.navbar-item:not(:last-child) {
+	margin-block-end: 15px;
+	outline: 1px solid red;
+}
