@@ -290,5 +290,10 @@ body.active {
 
 .navbar-item:not(:last-child) {
 	margin-block-end: 15px;
+}
+
+.navbar-link {
+	font-weight: var(--fw-500);
+	transition: var(--transition-1);
 	outline: 1px solid red;
 }
