@@ -176,7 +176,6 @@ body.active {
 .sidebar .social-wrapper {
 	justify-content: space-between;
 	margin-block-start: 50px;
-	outline: 1px solid red;
 }
 
 /*-----------------------------------*\
@@ -337,4 +336,15 @@ body.active {
 .sidebar .social-wrapper {
 	justify-content: space-between;
 	margin-block-start: 50px;
+}
+
+.overlay {
+	position: fixed;
+	inset: 0;
+	background-color: var(--black_70);
+	z-index: 4;
+	opacity: 0;
+	pointer-events: none;
+	transform: var(--transition-1);
+	outline: 1px solid red;
 }
