@@ -162,6 +162,10 @@ body.active {
 .social-list {
 	display: flex;
 	gap: 30px;
+}
+
+.social-link {
+	transition: var(--transition-1);
 	outline: 1px solid red;
 }
 
