@@ -245,3 +245,9 @@ body.active {
 	visibility: hidden;
 	transition: 0.25s var(--cubic-in);
 }
+
+.sidebar.active {
+	transform: translateX(-420px);
+	visibility: visible;
+	transition: 0.5s var(--cubic-out);
+}
