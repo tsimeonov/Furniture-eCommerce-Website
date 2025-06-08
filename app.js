@@ -34,3 +34,17 @@ const closeNavbar = function () {
 };
 
 addEventOnElem(navbarLinks, 'click', closeNavbar);
+
+// HEADER ACTIVE WHEN WINDOW SCROLL DOWN TO 100px
+
+const header = document.querySelector('[data-header]');
+
+const showElemOnScroll = function () {
+	if (window.scrollY > 100) {
+		header.classList.add('active');
+	} else {
+		header.classList.remove('active');
+	}
+};
+
+addEventOnElem(window, 'scroll', showElemOnScroll);
