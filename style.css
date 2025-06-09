@@ -375,5 +375,10 @@ body.active {
 
 .hero {
 	padding-block-start: calc(var(--section-padding) + 60px);
+}
+
+.hero-list {
+	display: grid;
+	gap: 15px;
 	outline: 2px solid red;
 }
