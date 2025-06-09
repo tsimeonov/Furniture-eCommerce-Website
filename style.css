@@ -178,6 +178,10 @@ body.active {
 	margin-block-start: 50px;
 }
 
+.section {
+	padding-block: var(--section-padding);
+}
+
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
