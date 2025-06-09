@@ -408,5 +408,9 @@ body.active {
 .hero-card .card-title {
 	font-size: var(--fs-3);
 	transition: var(--transition-1);
+}
+
+.hero-card .card-title:is(:hover, :focus) {
+	color: var(--tan-crayola);
 	outline: 2px solid red;
 }
