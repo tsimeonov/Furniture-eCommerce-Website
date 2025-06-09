@@ -414,3 +414,11 @@ body.active {
 	color: var(--tan-crayola);
 	outline: 2px solid red;
 }
+
+/*-----------------------------------*\
+  #ABOUT
+\*-----------------------------------*/
+
+.about {
+	text-align: center;
+}
