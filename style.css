@@ -380,5 +380,9 @@ body.active {
 .hero-list {
 	display: grid;
 	gap: 15px;
+}
+
+.hero-card {
+	position: relative;
 	outline: 2px solid red;
 }
