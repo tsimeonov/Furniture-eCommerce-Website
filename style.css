@@ -388,5 +388,9 @@ body.active {
 
 .hero-card .img-cover {
 	transition: var(--transition-2);
+}
+
+.hero-card:is(:hover, :focus) .img-cover {
+	transform: scale(1.1);
 	outline: 2px solid red;
 }
