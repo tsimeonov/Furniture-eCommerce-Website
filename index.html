@@ -24,7 +24,12 @@
 			href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Roboto:wght@400;500;700&display=swap"
 			rel="stylesheet" />
 
-		<!--  -->
+		<!--preload images  -->
+		<link rel="preload" as="image" href="./assets/images/hero-product-1.jpg" />
+		<link rel="preload" as="image" href="./assets/images/hero-product-2.jpg" />
+		<link rel="preload" as="image" href="./assets/images/hero-product-3.jpg" />
+		<link rel="preload" as="image" href="./assets/images/hero-product-4.jpg" />
+		<link rel="preload" as="image" href="./assets/images/hero-product-5.jpg" />
 	</head>
 	<body>
 		<!-- HEADER -->
@@ -304,6 +309,25 @@
 							the egg. Likewise, starting with the egg and following the same
 							process in reverse, one finishes with the portrait.
 						</p>
+
+						<div class="about-card">
+							<figure
+								class="card-banner-img-holder"
+								style="--width: 1170; --height: 450">
+								<img
+									src="./assets/images/about-banner.jpg"
+									width="1170"
+									height="450"
+									alt="Woodex promoe"
+									loading="lazy"
+									class="img-cover" />
+							</figure>
+							<button class="pay-btn" aria-label="play video">
+								<ion-icon
+									name="play-circle-outline"
+									aria-hidden="true"></ion-icon>
+							</button>
+						</div>
 					</div>
 				</div>
 			</article>
