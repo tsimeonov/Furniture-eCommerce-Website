@@ -432,3 +432,11 @@ body.active {
 	margin-block: 12px 45px;
 	outline: 2px solid red;
 }
+
+.about-card {
+	position: relative;
+}
+
+.about-card .img-cover {
+	transition: var(--transition-2);
+}
