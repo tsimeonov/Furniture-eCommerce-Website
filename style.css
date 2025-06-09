@@ -430,7 +430,6 @@ body.active {
 
 .about .section-text {
 	margin-block: 12px 45px;
-	outline: 2px solid red;
 }
 
 .about-card {
@@ -439,4 +438,9 @@ body.active {
 
 .about-card .img-cover {
 	transition: var(--transition-2);
+}
+
+.about-card:is(:hover, :focus) .img-cover {
+	transform: scale(1.1);
+	outline: 2px solid red;
 }
