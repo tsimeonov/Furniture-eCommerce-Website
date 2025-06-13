@@ -214,6 +214,11 @@ body.active {
 	gap: 35px;
 }
 
+.has-before {
+	position: relative;
+	z-index: 1;
+}
+
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
