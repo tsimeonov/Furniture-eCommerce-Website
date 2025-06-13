@@ -194,6 +194,13 @@ body.active {
 	object-fit: cover;
 }
 
+.h2,
+.h3 {
+	color: var(--smokey-black);
+	font-weight: var(--fw-500);
+	line-height: 1.4;
+}
+
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
