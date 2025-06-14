@@ -545,7 +545,6 @@ body.active {
 	gap: 15px;
 	opacity: 0;
 	transition: var(--transition-1);
-	outline: 1px solid red;
 }
 
 .product-card .card-banner:is(:hover, :focus-within) .card-action-list {
@@ -569,4 +568,16 @@ body.active {
 	position: absolute;
 	top: 15px;
 	left: 15px;
+}
+
+.product-card .badge {
+	color: var(--white);
+	font-size: var(--fs-5);
+	font-weight: var(--fw-500);
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	line-height: 45px;
+	margin-block-end: 10px;
+	outline: 1px solid red;
 }
