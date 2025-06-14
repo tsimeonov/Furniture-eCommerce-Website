@@ -543,6 +543,12 @@ body.active {
 	transform: translate(-50%, 100%);
 	display: flex;
 	gap: 15px;
+	opacity: 0;
 	transition: var(--transition-1);
 	outline: 1px solid red;
+}
+
+.product-card .card-banner:is(:hover, :focus-within) .card-action-list {
+	transform: translate(-50%, -50%);
+	opacity: 1;
 }
