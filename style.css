@@ -512,5 +512,17 @@ body.active {
 .filter-btn-item:not(:last-child)::after {
 	content: '|';
 	margin-inline: 15px;
+}
+
+.filter-btn {
+	transition: var(--transition-1);
+}
+
+.filter-btn.active {
+	color: var(--tan-crayola);
+}
+
+.product-card {
+	text-align: center;
 	outline: 1px solid red;
 }
