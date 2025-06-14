@@ -609,5 +609,9 @@ body.active {
 	font-weight: var(--fw-500);
 	margin-block: 18px 5px;
 	transition: var(--transition-1);
+}
+
+.product-card .card-title:is(:hover, :focus) {
+	color: var(--tan-crayola);
 	outline: 1px solid red;
 }
