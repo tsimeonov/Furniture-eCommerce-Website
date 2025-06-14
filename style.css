@@ -496,3 +496,11 @@ body.active {
 .product .section-title {
 	text-align: center;
 }
+
+.filter-btn-list {
+	margin-block: 20px 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	outline: 1px solid red;
+}
