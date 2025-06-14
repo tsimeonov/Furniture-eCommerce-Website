@@ -486,7 +486,6 @@ body.active {
 
 .about-card:is(:hover, :focus) .play-btn {
 	background-color: var(--black_50);
-	outline: 2px solid red;
 }
 
 /*-----------------------------------*\
@@ -531,5 +530,13 @@ body.active {
 	background-color: var(--black_10);
 	opacity: 0;
 	transition: var(--transition-1);
-	outline: 1px solid red;
+}
+
+/* .product-card .card-banner:is(:hover, :focus-within)::before {
+	opacity: 1;
+} */
+
+.product-card .card-banner:hover::before,
+.product-card .card-banner:focus-within::before {
+	opacity: 1;
 }
