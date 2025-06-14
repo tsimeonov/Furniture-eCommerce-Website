@@ -507,5 +507,10 @@ body.active {
 .filter-btn-item {
 	position: relative;
 	display: flex;
+}
+
+.filter-btn-item:not(:last-child)::after {
+	content: '|';
+	margin-inline: 15px;
 	outline: 1px solid red;
 }
