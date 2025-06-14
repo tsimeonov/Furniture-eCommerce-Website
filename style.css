@@ -613,5 +613,13 @@ body.active {
 
 .product-card .card-title:is(:hover, :focus) {
 	color: var(--tan-crayola);
+}
+
+.product-card .card-price {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+	color: var(--light-gray);
+	font-size: var(--fs-4);
 	outline: 1px solid red;
 }
