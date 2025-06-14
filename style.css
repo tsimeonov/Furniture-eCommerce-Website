@@ -544,7 +544,7 @@ body.active {
 	display: flex;
 	gap: 15px;
 	opacity: 0;
-	transition: var(--transition-1);
+	transition: var(--transition-2);
 }
 
 .product-card .card-banner:is(:hover, :focus-within) .card-action-list {
@@ -597,7 +597,6 @@ body.active {
 	color: var(--white);
 	font-weight: var(--fw-500);
 	padding-inline: 15px;
-	border-radius: 10px;
 }
 
 .product-card .h3 {
@@ -619,7 +618,7 @@ body.active {
 	display: flex;
 	justify-content: center;
 	gap: 15px;
-	color: var(--light-gray);
+	color: var(--granite-gray);
 	font-size: var(--fs-4);
 }
 
@@ -627,19 +626,16 @@ body.active {
 	color: var(--spanish-gray);
 }
 
-/* .product-list > * {
+.product-list > * {
 	display: none;
-} */
+}
 
-.product-list[data-filter='all']
-	> *
-	.product-list[data-filter='accessory']
-	> .accessory,
+.product-list[data-filter='all'] > *,
+.product-list[data-filter='accessory'] > .accessory,
 .product-list[data-filter='decoration'] > .decoration,
 .product-list[data-filter='furniture'] > .furniture {
 	display: block;
 	animation: fadeUp 1s ease forwards;
-	outline: 1px solid red;
 }
 
 @keyframes fadeUp {
@@ -647,6 +643,7 @@ body.active {
 		opacity: 0;
 		transform: translateY(10px);
 	}
+
 	100% {
 		opacity: 1;
 		transform: translateY(0);
