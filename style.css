@@ -589,3 +589,14 @@ body.active {
 	background-color: var(--middle-blue-green);
 	outline: 1px solid red;
 }
+
+.product-card .card-badge {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	background-color: var(--black);
+	color: var(--white);
+	font-weight: var(--fw-500);
+	padding-inline: 15px;
+	border-radius: 10px;
+}
