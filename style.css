@@ -579,9 +579,13 @@ body.active {
 	border-radius: 50%;
 	line-height: 45px;
 	margin-block-end: 10px;
-	outline: 1px solid red;
 }
 
 .product-card .badge.orange {
 	background-color: var(--red-orange-color-wheel);
+}
+
+.product-card .badge.cyan {
+	background-color: var(--middle-blue-green);
+	outline: 1px solid red;
 }
