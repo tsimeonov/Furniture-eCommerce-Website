@@ -602,5 +602,12 @@ body.active {
 
 .product-card .h3 {
 	font-size: unset;
+}
+
+.product-card .card-title {
+	color: var(--smokey-black);
+	font-weight: var(--fw-500);
+	margin-block: 18px 5px;
+	transition: var(--transition-1);
 	outline: 1px solid red;
 }
