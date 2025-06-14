@@ -627,3 +627,15 @@ body.active {
 	color: var(--spanish-gray);
 	outline: 1px solid red;
 }
+
+.product-list > * {
+	display: none;
+}
+
+.product-list[data-filter='all'] > *,
+.product-list[data-filter='accessory'] > *,
+.product-list[data-filter='decoration'] > *,
+.product-list[data-filter='furniture'] > * {
+	display: block;
+	animation: fadeUp 1s ease forwards;
+}
