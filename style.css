@@ -621,5 +621,9 @@ body.active {
 	gap: 15px;
 	color: var(--light-gray);
 	font-size: var(--fs-4);
+}
+
+.product-card .card-price .del {
+	color: var(--spanish-gray);
 	outline: 1px solid red;
 }
