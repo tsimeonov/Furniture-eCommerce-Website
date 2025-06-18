@@ -702,5 +702,10 @@ body.active {
 
 .blog-card .card-title:is(:hover, :focus) {
 	color: var(--tan-crayola);
+}
+
+.blog-card .card-meta-list {
+	display: flex;
+	align-items: center;
 	outline: 1px solid red;
 }
