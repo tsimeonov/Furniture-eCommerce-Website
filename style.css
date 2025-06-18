@@ -668,5 +668,13 @@ body.active {
 	gap: 10px;
 	font-weight: var(--fw-500);
 	transition: var(--transition-1);
+}
+
+.blog .btn-link:is(:hover, :focus) {
+	color: var(--tan-crayola);
+}
+
+.blog-card .card-banner {
+	position: relative;
 	outline: 1px solid red;
 }
