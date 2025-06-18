@@ -678,3 +678,17 @@ body.active {
 	position: relative;
 	outline: 1px solid red;
 }
+
+.blog-card .card-btn {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: var(--white);
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	padding: 5px 15px;
+	transform: translateX(100%);
+	transition: var(--transition-2);
+	outline: 1px solid red;
+}
