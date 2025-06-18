@@ -676,7 +676,6 @@ body.active {
 
 .blog-card .card-banner {
 	position: relative;
-	outline: 1px solid red;
 }
 
 .blog-card .card-btn {
@@ -690,5 +689,18 @@ body.active {
 	padding: 5px 15px;
 	transform: translateX(100%);
 	transition: var(--transition-2);
+}
+
+.blog-card:is(:hover, :focus) .card-btn {
+	transform: translateX(0);
+}
+
+.blog-card .card-title {
+	margin-block: 20px 10px;
+	transition: var(--transition-1);
+}
+
+.blog-card .card-title:is(:hover, :focus) {
+	color: var(--tan-crayola);
 	outline: 1px solid red;
 }
