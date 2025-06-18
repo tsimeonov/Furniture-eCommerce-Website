@@ -707,5 +707,11 @@ body.active {
 .blog-card .card-meta-list {
 	display: flex;
 	align-items: center;
+}
+
+.card-meta-item {
+	position: relative;
+	color: var(--granite-gray);
+	font-size: var(--fs-5);
 	outline: 1px solid red;
 }
