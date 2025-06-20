@@ -756,3 +756,7 @@ a.card-meta-text:is(:hover, :focus) {
 .newsletter-card .h2 {
 	--fs-2: 2.6rem;
 }
+
+.newsletter .card-form {
+	position: relative;
+}
