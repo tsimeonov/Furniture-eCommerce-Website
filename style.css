@@ -770,3 +770,7 @@ a.card-meta-text:is(:hover, :focus) {
 	transition: var(--transition-1);
 	border-radius: 10px;
 }
+
+.newsletter-card .email-field:focus {
+	outline-color: var(--black_25);
+}
