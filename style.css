@@ -748,3 +748,7 @@ a.card-meta-text:is(:hover, :focus) {
 .newsletter-card .card-content {
 	margin-block-end: 40px;
 }
+
+.newsletter .section-title {
+	margin-block-end: 8px;
+}
