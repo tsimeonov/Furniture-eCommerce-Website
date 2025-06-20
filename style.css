@@ -721,3 +721,9 @@ body.active {
 	color: var(--spanish-gray);
 	outline: 1px solid red;
 }
+
+.card-meta-text {
+	display: inline-block;
+	color: var(--black);
+	transition: var(--transition-1);
+}
