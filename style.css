@@ -740,3 +740,7 @@ a.card-meta-text:is(:hover, :focus) {
 	--section-padding: 20px;
 	background-color: var(--cultured);
 }
+
+.newsletter-card {
+	padding-inline: 15px;
+}
