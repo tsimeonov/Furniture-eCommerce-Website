@@ -760,3 +760,13 @@ a.card-meta-text:is(:hover, :focus) {
 .newsletter .card-form {
 	position: relative;
 }
+
+.newsletter-card .email-field {
+	background-color: var(--white);
+	padding-block: 14px;
+	padding-inline: 20px 50px;
+	outline: 3px solid transparent;
+	outline-offset: 0;
+	transition: var(--transition-1);
+	border-radius: 10px;
+}
