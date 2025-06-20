@@ -713,5 +713,11 @@ body.active {
 	position: relative;
 	color: var(--granite-gray);
 	font-size: var(--fs-5);
+}
+
+.card-meta-item:not(:last-child)::after {
+	content: '/';
+	margin-inline: 8px;
+	color: var(--spanish-gray);
 	outline: 1px solid red;
 }
