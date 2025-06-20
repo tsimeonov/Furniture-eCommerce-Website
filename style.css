@@ -727,3 +727,7 @@ body.active {
 	color: var(--black);
 	transition: var(--transition-1);
 }
+
+a.card-meta-text:is(:hover, :focus) {
+	color: var(--tan-crayola);
+}
