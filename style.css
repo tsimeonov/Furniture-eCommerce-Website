@@ -774,3 +774,11 @@ a.card-meta-text:is(:hover, :focus) {
 .newsletter-card .email-field:focus {
 	outline-color: var(--black_25);
 }
+
+.newsletter-btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	padding-inline: 20px;
+}
