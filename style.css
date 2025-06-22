@@ -1060,3 +1060,25 @@ a.card-meta-text:is(:hover, :focus) {
 		padding-block-end: 60px;
 	}
 }
+
+/* responsive for larger than 1200px screens */
+
+@media (min-width: 1200px) {
+	/* CUSTOM PROPERTY */
+
+	:root {
+		/* typography */
+		--fs-2: 3.6rem;
+	}
+
+	/* REUSED STYLE */
+
+	.container {
+		max-width: 1200px;
+	}
+
+	/* PRODUCT */
+	.product-list {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
