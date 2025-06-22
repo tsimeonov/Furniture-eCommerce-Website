@@ -719,7 +719,6 @@ body.active {
 	content: '/';
 	margin-inline: 8px;
 	color: var(--spanish-gray);
-	outline: 1px solid red;
 }
 
 .card-meta-text {
@@ -781,4 +780,15 @@ a.card-meta-text:is(:hover, :focus) {
 	right: 0;
 	bottom: 0;
 	padding-inline: 20px;
+}
+
+/*-----------------------------------*\
+  #NEWSLETTER
+\*-----------------------------------*/
+
+.footer-top {
+	display: grid;
+	gap: 30px;
+	padding-block-end: 40px;
+	outline: 1px solid red;
 }
