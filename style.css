@@ -796,5 +796,9 @@ a.card-meta-text:is(:hover, :focus) {
 	display: flex;
 	align-items: center;
 	gap: 10px;
-	outline: 1px solid red;
+}
+
+.footer-link {
+	padding-block: 4px;
+	transition: var(--transition-1);
 }
