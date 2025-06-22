@@ -820,7 +820,6 @@ a.card-meta-text:is(:hover, :focus) {
 
 .footer-form {
 	position: relative;
-	outline: 1px solid red;
 }
 
 .footer .email-field {
@@ -828,4 +827,9 @@ a.card-meta-text:is(:hover, :focus) {
 	padding-inline-end: 35px;
 	border-block-end: 1px solid var(--black_25);
 	outline: none;
+}
+
+.footer .email-field:focus {
+	border-color: var(--tan-crayola);
+	outline: 1px solid red;
 }
