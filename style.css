@@ -851,7 +851,6 @@ a.card-meta-text:is(:hover, :focus) {
 .copyright {
 	text-align: center;
 	padding-block: 20px;
-	outline: 1px solid red;
 }
 
 .copyright-link {
@@ -875,4 +874,10 @@ a.card-meta-text:is(:hover, :focus) {
 	opacity: 0;
 	visibility: hidden;
 	transition: var(--transition-1);
+}
+
+.back-top-btn.active {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(-10px);
 }
