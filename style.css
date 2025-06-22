@@ -853,3 +853,7 @@ a.card-meta-text:is(:hover, :focus) {
 	padding-block: 20px;
 	outline: 1px solid red;
 }
+
+.copyright-link {
+	display: inline-block;
+}
