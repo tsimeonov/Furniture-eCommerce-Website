@@ -900,6 +900,19 @@ a.card-meta-text:is(:hover, :focus) {
 	.grid-list {
 		grid-template-columns: 1fr 1fr;
 		column-gap: 25px;
+	}
+
+	/* HEADER */
+	.header .container {
+		gap: 35px;
 		outline: 1px solid red;
+	}
+
+	.header .input-field {
+		padding-block: 10px;
+		padding-inline-end: 30px;
+		border-block-end: 1px solid var(--black_25);
+		outline: none;
+		transition: var(--transition-1);
 	}
 }
