@@ -905,7 +905,6 @@ a.card-meta-text:is(:hover, :focus) {
 	/* HEADER */
 	.header .container {
 		gap: 35px;
-		outline: 1px solid red;
 	}
 
 	.header .input-field {
@@ -914,5 +913,22 @@ a.card-meta-text:is(:hover, :focus) {
 		border-block-end: 1px solid var(--black_25);
 		outline: none;
 		transition: var(--transition-1);
+	}
+
+	.header .input-field:focus {
+		border-block-end-color: var(--tan-crayola);
+	}
+
+	.header .input-wrapper ion-icon {
+		position: absolute;
+		top: 50%;
+		right: 0;
+		transform: translateY(-50%);
+		font-size: 24px;
+	}
+
+	.header-action {
+		gap: 25px;
+		outline: 1px solid red;
 	}
 }
