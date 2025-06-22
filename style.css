@@ -896,4 +896,10 @@ a.card-meta-text:is(:hover, :focus) {
 		width: 100%;
 		margin-inline: auto;
 	}
+
+	.grid-list {
+		grid-template-columns: 1fr 1fr;
+		column-gap: 25px;
+		outline: 1px solid red;
+	}
 }
