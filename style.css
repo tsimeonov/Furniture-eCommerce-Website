@@ -857,3 +857,22 @@ a.card-meta-text:is(:hover, :focus) {
 .copyright-link {
 	display: inline-block;
 }
+
+/*-----------------------------------*\
+  #BACK TO TOP
+\*-----------------------------------*/
+
+.back-top-btn {
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	background-color: var(--tan-crayola);
+	color: var(--white);
+	font-size: 24px;
+	padding: 18px;
+	border-radius: 50%;
+	z-index: 4;
+	opacity: 0;
+	visibility: hidden;
+	transition: var(--transition-1);
+}
